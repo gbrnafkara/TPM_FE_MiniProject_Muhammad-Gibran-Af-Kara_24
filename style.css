@@ -1,0 +1,119 @@
+* {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+label,
+span {
+  font-size: 11px;
+}
+
+input {
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url("./a454d2aeda99c534d8f069fbf5b54f5cff46e7b4.jpg");
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.login-btn {
+  padding: 16px 40px;
+  border: 2px solid #000000;
+  background: transparent;
+}
+
+.login-text {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: -10px 23px 40px 0 rgb(0 0 0 / 20%);
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.left {
+  background: url("./3781e70dacbd2ed2bd4401c515cb28f1a7f23f47.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title-content > .title {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(to right, #8fcef5, #4986db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 370px;
+  padding: 10px 10px;
+  border: 1px solid #000000;
+  position: relative;
+}
+
+.input-item:not(:first-child) {
+  border-top: none;
+}
+
+.input-item > input {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  opacity: 0.6;
+}
